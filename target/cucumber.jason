@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat Step_defination.Test_step.user_is_on_Home_Page(Test_step.java:11)\r\n\tat ✽.User is on Home Page(Feature/Login.feature:5)\r\n",
+              "duration": 2752700,
+              "status": "pending"
+            },
+            "line": 5,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Test_step.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81399,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "Test_step.user_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41401,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User enters UserName and Password",
+            "match": {
+              "location": "Test_step.user_enters_UserName_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Message displayed Login SuccessfullyScenario: Successful Logout",
+            "match": {
+              "location": "Test_step.message_displayed_Login_SuccessfullyScenario_Successful_Logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44800,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User Logout from the Application",
+            "match": {
+              "location": "Test_step.user_Logout_from_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Message displayed  Successfully",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "Feature/Login.feature",
+    "tags": []
+  }
+]
